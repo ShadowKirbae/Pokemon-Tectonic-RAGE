@@ -81,6 +81,15 @@ class PokeBattle_Move_TrapTarget < PokeBattle_Move
     end
 end
 
+# Empowered Shadow Hold
+class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
+    include EmpoweredMove
+
+    def pbEffectGeneral(user)
+        transformType(user, :SHADOW)
+    end
+end
+
 #===============================================================================
 # Target becomes trapped. Summons Eclipse for 8 turns.
 # (Captivating Sight)
@@ -252,39 +261,4 @@ class PokeBattle_Move_TrapTargetTargetTakes50PercentMoreDamage < PokeBattle_Move
     def pbEffectAgainstTarget(user, target)
         target.pointAt(:DeathMark, user) unless target.effectActive?(:DeathMark)
     end
-end
-
-#===============================================================================
-# Both targets get trapped, turns self into Shadow type. (Prime Shadow Hold)
-#===============================================================================
-
-# Prime Shadow Hold
-class PokeBattle_Move_TrapTarget < PokeBattle_Move
-    include EmpoweredMove
-    def pbFailsAgainstTarget?(_user, target, show_message)
-        return false if damagingMove?
-        if target.effectActive?(:MeanLook)
-            if show_message
-                @battle.pbDisplay(_INTL("But it failed, since {1} already can't escape!", target.pbThis(true)))
-            end
-            return true
-        end
-        return false
-		
-    def pbEffectAgainstTarget(user, target)
-        return if damagingMove?
-        target.pointAt(:MeanLook, user) unless target.effectActive?(:MeanLook)
-    end
-
-    def pbAdditionalEffect(user, target)
-        return if target.fainted? || target.damageState.substitute
-        return if target.effectActive?(:MeanLook)
-        target.pointAt(:MeanLook, user) unless target.effectActive?(:MeanLook)
-    end
-		
-    def pbEffectGeneral(user)
-        super
-        transformType(user, :SHADOW)
-    end
-end
 end

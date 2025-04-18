@@ -276,3 +276,4 @@ class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
         transformType(user, :SHADOW)
     end
 end
+end

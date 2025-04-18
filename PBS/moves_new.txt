@@ -7438,3 +7438,138 @@ Target = User
 FunctionCode = ChangeUserDeoxusChoiceOfForm
 Description = The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 Animation = TRANSFORM
+#-------------------------------
+#		SHADOW MOVES
+#-------------------------------
+[SHADOWBLAST]
+Name = Shadow Blast
+Type = SHADOW
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,CanRandomCrit,Uninvocable
+Description = A wicked blade of air is formed using a shadowy aura. Can random critical hit.
+#-------------------------------
+[SHADOWBLITZ]
+Name = Shadow Blitz
+Type = SHADOW
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = Basic
+Flags = CanProtect,Uninvocable
+Description = A Pokémon throws this tackle while casting a shadowy aura. It is sure to strike first.
+#-------------------------------
+[SHADOWBOLT]
+Name = Shadow Bolt
+Type = SHADOW
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Numb
+Flags = CanProtect,Uninvocable
+EffectChance = 10
+Description = A shadowy thunder attack. It has a 10% chance to numb.
+#-------------------------------
+[SHADOWBREAK]
+Name = Shadow Break
+Type = SHADOW
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = RemoveProtections
+Flags = CanRandomCrit,DoubleCritChance,Uninvocable
+Description = A shattering ram attack with a shadowy aura. Skips and destroys protections. Can random critical hit, and does so twice as often.
+#-------------------------------
+[SHADOWCHILL]
+Name = Shadow Chill
+Type = SHADOW
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Frostbite
+Flags = CanProtect,Uninvocable
+EffectChance = 10
+Description = A shadowy ice attack. It has a 10% chance to frostbite.
+#-------------------------------
+[SHADOWDOWN]
+Name = Shadow Down
+Type = SHADOW
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetDefSpDef2
+Flags = CanProtect,Uninvocable
+Description = A shadowy aura that reduces the opposing side's Defense and Sp. Def by two steps.
+#-------------------------------
+[SHADOWEND]
+Name = Shadow End
+Type = SHADOW
+Category = Physical
+Power = 120
+Accuracy = 60
+TotalPP = 30
+Target = NearOther
+FunctionCode = UserLosesHalfOfCurrentHP
+Flags = CanProtect,Uninvocable
+Description = A shadowy aura ram attack that also rebounds on the user. The user is damaged for 50% of their current HP.
+#-------------------------------
+[SHADOWFIRE]
+Name = Shadow Fire
+Type = SHADOW
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Burn
+Flags = CanProtect,Uninvocable
+EffectChance = 10
+Description = A shadowy fireball attack. It has a 10% chance to burn.
+#-------------------------------
+[SHADOWMIST]
+Name = Shadow Mist
+Type = SHADOW
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetEvasion4
+Flags = CanProtect,Uninvocable
+Description = A shadowy aura that reduces the opposing side's Evasion by four steps.
+#-------------------------------
+[SHADOWPANIC]
+Name = Shadow Panic
+Type = SHADOW
+Category = Status
+Accuracy = 60
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = Dizzy
+Flags = CanProtect,Uninvocable,Sound
+Description = A shadowy aura emanates to cause dizzy on the opposing side.
+#-------------------------------
+[SHADOWSTORM]
+Name = Shadow Storm
+Type = SHADOW
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = Basic
+Flags = CanProtect,Uninvocable
+Description = A shadowy aura is used to whip up a vicious tornado. Damages all foes.

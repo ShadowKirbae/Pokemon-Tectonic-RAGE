@@ -253,3 +253,27 @@ class PokeBattle_Move_TrapTargetTargetTakes50PercentMoreDamage < PokeBattle_Move
         target.pointAt(:DeathMark, user) unless target.effectActive?(:DeathMark)
     end
 end
+
+#===============================================================================
+# Both targets get trapped, turns self into Shadow type. (Prime Shadow Hold)
+#===============================================================================
+
+# Prime Shadow Hold
+class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
+    include EmpoweredMove
+    def pbFailsAgainstTarget?(_user, target, show_message)
+        return false if damagingMove?
+        if target.effectActive?(:ShadowHold)
+            if show_message
+                @battle.pbDisplay(_INTL("But it failed, since {1} already can't escape!", target.pbThis(true)))
+            end
+            return true
+        end
+        return false
+		
+    def pbEffectGeneral(user)
+        super
+        transformType(user, :SHADOW)
+    end
+	
+end

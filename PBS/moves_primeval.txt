@@ -1015,3 +1015,17 @@ FunctionCode = EmpoweredPuzzleRoom
 Flags = Empowered
 Description = The user creates a Puzzle Room for 5 turns, raises both of its Attacking stats, and becomes Fairy-type.
 Animation = PUZZLEROOM
+#-------------------------------
+#		SHADOW MOVES
+#-------------------------------
+[PRIMEVALSHADOWHOLD]
+Name = Primeval Shadow Hold
+Type = SHADOW
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = AllNearFoes
+FunctionCode = EmpoweredShadowHold
+Flags = Empowered
+Description = The user traps both opponents and becomes Shadow-type.
+Animation = OCTOLOCK

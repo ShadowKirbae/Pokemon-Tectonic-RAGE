@@ -7489,7 +7489,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = RemoveProtections
 Flags = CanRandomCrit,DoubleCritChance,Uninvocable
-Description = A shattering ram attack with a shadowy aura. Skips and destroys protections. Can random critical hit, and does so twice as often.
+Description = A shattering ram attack with a shadowy aura. Skips and destroys protections. Can random critical hit and does so twice as often.
 #-------------------------------
 [SHADOWCHILL]
 Name = Shadow Chill

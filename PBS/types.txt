@@ -5,7 +5,7 @@ Name = Normal
 InternalName = NORMAL
 Color = 168,168,120
 DarkColor = 80,72,88
-Weaknesses = FIGHTING
+Weaknesses = FIGHTING,SHADOW
 Immunities = GHOST
 #-------------------------------
 [1]
@@ -13,7 +13,7 @@ Name = Fighting
 InternalName = FIGHTING
 Color = 192,48,48
 DarkColor = 120,48,0
-Weaknesses = FLYING,PSYCHIC,FAIRY
+Weaknesses = FLYING,PSYCHIC,FAIRY,SHADOW
 Resistances = ROCK,BUG,DARK
 #-------------------------------
 [2]
@@ -21,7 +21,7 @@ Name = Flying
 InternalName = FLYING
 Color = 182,171,255
 DarkColor = 24,48,104
-Weaknesses = ROCK,ELECTRIC,ICE
+Weaknesses = ROCK,ELECTRIC,ICE,SHADOW
 Resistances = FIGHTING,BUG,GRASS
 Immunities = GROUND
 #-------------------------------
@@ -30,7 +30,7 @@ Name = Poison
 InternalName = POISON
 Color = 160,64,160
 DarkColor = 88,32,120
-Weaknesses = GROUND,PSYCHIC
+Weaknesses = GROUND,PSYCHIC,SHADOW
 Resistances = FIGHTING,POISON,BUG,GRASS,FAIRY
 #-------------------------------
 [4]
@@ -38,7 +38,7 @@ Name = Ground
 InternalName = GROUND
 Color = 224,192,104
 DarkColor = 104,56,8
-Weaknesses = WATER,GRASS,ICE
+Weaknesses = WATER,GRASS,ICE,SHADOW
 Resistances = POISON,ROCK
 Immunities = ELECTRIC
 #-------------------------------
@@ -47,7 +47,7 @@ Name = Rock
 InternalName = ROCK
 Color = 184,160,56
 DarkColor = 80,48,32
-Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS
+Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS,SHADOW
 Resistances = NORMAL,FLYING,POISON,FIRE,ICE
 #-------------------------------
 [6]
@@ -55,7 +55,7 @@ Name = Bug
 InternalName = BUG
 Color = 168,184,32
 DarkColor = 88,80,8
-Weaknesses = FLYING,ROCK,FIRE
+Weaknesses = FLYING,ROCK,FIRE,SHADOW
 Resistances = FIGHTING,GROUND,GRASS,PSYCHIC
 #-------------------------------
 [7]
@@ -63,7 +63,7 @@ Name = Ghost
 InternalName = GHOST
 Color = 112,88,152
 DarkColor = 72,40,64
-Weaknesses = GHOST,DARK
+Weaknesses = GHOST,DARK,SHADOW
 Resistances = POISON,BUG
 Immunities = NORMAL,FIGHTING
 #-------------------------------
@@ -72,7 +72,7 @@ Name = Steel
 InternalName = STEEL
 Color = 184,184,208
 DarkColor = 88,88,72
-Weaknesses = FIGHTING,GROUND,FIRE,PSYCHIC
+Weaknesses = FIGHTING,GROUND,FIRE,PSYCHIC,SHADOW
 Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,ICE,DRAGON,FAIRY
 Immunities = POISON
 #-------------------------------
@@ -87,7 +87,7 @@ InternalName = FIRE
 Color = 240,128,48
 DarkColor = 112,40,56
 IsSpecialType = true
-Weaknesses = GROUND,ROCK,WATER
+Weaknesses = GROUND,ROCK,WATER,SHADOW
 Resistances = BUG,STEEL,FIRE,GRASS,ICE
 #-------------------------------
 [11]
@@ -96,7 +96,7 @@ InternalName = WATER
 Color = 104,144,240
 DarkColor = 8,48,80
 IsSpecialType = true
-Weaknesses = GRASS,ELECTRIC,POISON
+Weaknesses = GRASS,ELECTRIC,POISON,SHADOW
 Resistances = STEEL,FIRE,WATER,ICE
 #-------------------------------
 [12]
@@ -105,7 +105,7 @@ InternalName = GRASS
 Color = 120,200,80
 DarkColor = 48,96,24
 IsSpecialType = true
-Weaknesses = FLYING,POISON,BUG,FIRE,ICE
+Weaknesses = FLYING,POISON,BUG,FIRE,ICE,SHADOW
 Resistances = GROUND,WATER,GRASS,ELECTRIC,FAIRY,GHOST
 #-------------------------------
 [13]
@@ -114,7 +114,7 @@ InternalName = ELECTRIC
 Color = 248,208,48
 DarkColor = 128,104,8
 IsSpecialType = true
-Weaknesses = GROUND
+Weaknesses = GROUND,SHADOW
 Resistances = FLYING,STEEL,ELECTRIC
 #-------------------------------
 [14]
@@ -123,7 +123,7 @@ InternalName = PSYCHIC
 Color = 248,88,136
 DarkColor = 120,16,120
 IsSpecialType = true
-Weaknesses = BUG,GHOST,DARK
+Weaknesses = BUG,GHOST,DARK,SHADOW
 Resistances = FIGHTING,PSYCHIC
 #-------------------------------
 [15]
@@ -132,7 +132,7 @@ InternalName = ICE
 Color = 152,216,216
 DarkColor = 64,96,136
 IsSpecialType = true
-Weaknesses = FIGHTING,ROCK,STEEL,FIRE
+Weaknesses = FIGHTING,ROCK,STEEL,FIRE,SHADOW
 Resistances = ICE,GROUND,FLYING
 #-------------------------------
 [16]
@@ -141,7 +141,7 @@ InternalName = DRAGON
 Color = 112,56,248
 DarkColor = 48,32,136
 IsSpecialType = true
-Weaknesses = ICE,DRAGON,FAIRY
+Weaknesses = ICE,DRAGON,FAIRY,SHADOW
 Resistances = FIRE,WATER,GRASS,ELECTRIC
 #-------------------------------
 [17]
@@ -150,7 +150,7 @@ InternalName = DARK
 Color = 112,88,72
 DarkColor = 80,40,48
 IsSpecialType = true
-Weaknesses = FIGHTING,BUG,FAIRY
+Weaknesses = FIGHTING,BUG,FAIRY,SHADOW
 Resistances = GHOST,DARK
 Immunities = PSYCHIC
 #-------------------------------
@@ -160,7 +160,7 @@ InternalName = FAIRY
 Color = 240,182,188
 DarkColor = 208,96,184
 IsSpecialType = true
-Weaknesses = POISON,STEEL,BUG
+Weaknesses = POISON,STEEL,BUG,SHADOW
 Resistances = FIGHTING,DARK,DRAGON
 #-------------------------------
 [19]
@@ -169,6 +169,14 @@ InternalName = MUTANT
 Color = 162,114,146
 DarkColor = 110,59,93
 IsPseudoType = true
-Weaknesses = NORMAL,DRAGON
+Weaknesses = NORMAL,DRAGON,SHADOW
 Resistances = ELECTRIC,FIGHTING,POISON,ROCK,GHOST,DARK
 Immunities = FIRE,ICE
+#-------------------------------
+[20]
+Name = Shadow
+InternalName = SHADOW
+Color = 162,114,146
+DarkColor = 110,59,93
+IsPseudoType = true
+Resistances = SHADOW

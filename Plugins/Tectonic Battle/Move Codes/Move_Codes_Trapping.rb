@@ -263,7 +263,7 @@ class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
     include EmpoweredMove
     def pbFailsAgainstTarget?(_user, target, show_message)
         return false if damagingMove?
-        if target.effectActive?(:ShadowHold)
+        if target.effectActive?(:MeanLook)
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since {1} already can't escape!", target.pbThis(true)))
             end

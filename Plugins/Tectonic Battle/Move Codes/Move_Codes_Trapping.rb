@@ -259,7 +259,7 @@ end
 #===============================================================================
 
 # Prime Shadow Hold
-class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
+class PokeBattle_Move_TrapTarget < PokeBattle_Move
     include EmpoweredMove
     def pbFailsAgainstTarget?(_user, target, show_message)
         return false if damagingMove?
@@ -270,6 +270,17 @@ class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
             return true
         end
         return false
+		
+    def pbEffectAgainstTarget(user, target)
+        return if damagingMove?
+        target.pointAt(:MeanLook, user) unless target.effectActive?(:MeanLook)
+    end
+
+    def pbAdditionalEffect(user, target)
+        return if target.fainted? || target.damageState.substitute
+        return if target.effectActive?(:MeanLook)
+        target.pointAt(:MeanLook, user) unless target.effectActive?(:MeanLook)
+    end
 		
     def pbEffectGeneral(user)
         super

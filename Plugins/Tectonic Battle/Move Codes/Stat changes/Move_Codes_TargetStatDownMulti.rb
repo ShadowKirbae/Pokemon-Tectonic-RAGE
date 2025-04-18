@@ -139,3 +139,23 @@ class PokeBattle_Move_EmpoweredStringShot < PokeBattle_TargetMultiStatDownMove
         transformType(user, :BUG)
     end
 end
+
+#===============================================================================
+# Decreases the target's Defense and Sp. Def by 2 steps each. (Shadow Down)
+#===============================================================================
+class PokeBattle_Move_LowerTargetDefSpDef2 < PokeBattle_TargetMultiStatDownMove
+    def initialize(battle, move)
+        super
+        @statDown = [:DEFENSE, 2, :SPECIAL_DEFENSE, 2]
+    end
+end
+
+#===============================================================================
+# Lowers the target's Evasion by 4. (Shadow Mist)
+#===============================================================================
+class PokeBattle_Move_LowerTargetEvasion4 < PokeBattle_TargetMultiStatDownMove
+    def initialize(battle, move)
+        super
+        @statDown = [:EVASION, 4]
+    end
+end

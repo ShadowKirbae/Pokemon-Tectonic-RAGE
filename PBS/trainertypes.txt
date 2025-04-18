@@ -5,6 +5,11 @@ Name = Wild
 Gender = wild
 BaseMoney = 100
 #-------------------------------
+[AETHERPRESIDENT]
+Name = Aether President
+Gender = Female
+BaseMoney = 80
+#-------------------------------
 [ANCIENTPRIEST]
 Name = Ancient Priest
 Gender = Unknown
@@ -778,6 +783,12 @@ Name = Juggler
 Gender = Male
 BaseMoney = 32
 IntroBGM = POKEFAN
+#-------------------------------
+[KARTENVOY]
+Name = Kartenvoy
+Gender = Male
+BaseMoney = 60
+IntroBGM = MONK
 #-------------------------------
 [KIMONOGIRL]
 Name = Kimono Girl
@@ -1570,7 +1581,12 @@ Name = Seeker
 Gender = Female
 BaseMoney = 40
 IntroBGM = PSYCHIC
-BattleBGM = Battle nora
+BattleBGM = Battle Nora
+#-------------------------------
+[SEWER]
+Name = Sewer
+Gender = wild
+BaseMoney = 30
 #-------------------------------
 [SHADOWMAVIS]
 Name = Shadow
@@ -1732,6 +1748,16 @@ Name = Swimmer
 Gender = Male
 BaseMoney = 16
 IntroBGM = CYCLING
+#-------------------------------
+[SWORDSOFJUSTICE]
+Name = Swords of Justice
+Gender = wild
+BaseMoney = 40
+#-------------------------------
+[SWORDSOFJUSTICE_2]
+Name = Swords of Justice
+Gender = wild
+BaseMoney = 40
 #-------------------------------
 [TAPU_BULU]
 Name = Guardian Deity

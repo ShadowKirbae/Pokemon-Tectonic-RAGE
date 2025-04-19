@@ -791,3 +791,12 @@ BattleHandlers::DamageCalcUserAbility.add(:WREAKHAVOC,
     end
   }
 )
+
+BattleHandlers::DamageCalcUserAbility.add(:PRIMEVALSHADOWSCALES,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if type == :SHADOW
+      mults[:attack_multiplier] *= 1.2
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)

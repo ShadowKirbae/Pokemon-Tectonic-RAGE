@@ -7450,7 +7450,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Uninvocable
+Flags = CanProtect,CanRandomCrit,Uninvocable,Wind
 Description = A wicked blade of air is formed using a shadowy aura. Can random critical hit.
 #-------------------------------
 [SHADOWBLITZ]
@@ -7571,5 +7571,5 @@ Accuracy = 100
 TotalPP = 30
 Target = AllNearFoes
 FunctionCode = Basic
-Flags = CanProtect,Uninvocable
+Flags = CanProtect,Uninvocable,Wind
 Description = A shadowy aura is used to whip up a vicious tornado. Damages all foes.

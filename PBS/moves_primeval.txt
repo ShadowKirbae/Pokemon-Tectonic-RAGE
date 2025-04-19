@@ -1026,6 +1026,6 @@ Accuracy = 0
 TotalPP = 1
 Target = AllNearFoes
 FunctionCode = EmpoweredShadowHold
-Flags = Empowered
+Flags = Empowered,Uninvocable
 Description = The user traps both opponents, raises both of ist Defending stats, and becomes Shadow-type.
 Animation = OCTOLOCK

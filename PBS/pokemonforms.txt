@@ -540,30 +540,48 @@ FormName = White Flower
 #-------------------------------
 [FURFROU,1]
 FormName = Heart Trim
+Type1 = NORMAL
+Type2 = PSYCHIC
 #-------------------------------
 [FURFROU,2]
 FormName = Star Trim
+Type1 = NORMAL
+Type2 = ELECTRIC
 #-------------------------------
 [FURFROU,3]
 FormName = Diamond Trim
+Type1 = NORMAL
+Type2 = ROCK
 #-------------------------------
 [FURFROU,4]
 FormName = Debutante Trim
+Type1 = NORMAL
+Type2 = FAIRY
 #-------------------------------
 [FURFROU,5]
 FormName = Matron Trim
+Type1 = NORMAL
+Type2 = POISON
 #-------------------------------
 [FURFROU,6]
 FormName = Dandy Trim
+Type1 = NORMAL
+Type2 = DARK
 #-------------------------------
 [FURFROU,7]
 FormName = La Reine Trim
+Type1 = NORMAL
+Type2 = WATER
 #-------------------------------
 [FURFROU,8]
 FormName = Kabuki Trim
+Type1 = NORMAL
+Type2 = FIGHTING
 #-------------------------------
 [FURFROU,9]
 FormName = Pharaoh Trim
+Type1 = NORMAL
+Type2 = GHOST
 #-------------------------------
 [MEOWSTIC,1]
 FormName = Female
@@ -590,9 +608,6 @@ BaseStats = 77,70,77,49,84,77
 Height = 0.8
 Weight = 15.0
 Pokedex = Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.
-WildItemCommon = MIRACLESEED
-WildItemUncommon = MIRACLESEED
-WildItemRare = MIRACLESEED
 #-------------------------------
 [GOURGEIST,1]
 FormName = Average Size

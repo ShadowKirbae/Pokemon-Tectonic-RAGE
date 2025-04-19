@@ -82,10 +82,12 @@ class PokeBattle_Move_TrapTarget < PokeBattle_Move
 end
 
 # Empowered Shadow Hold
-class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move
+class PokeBattle_Move_EmpoweredShadowHold < PokeBattle_Move_TrapTarget
     include EmpoweredMove
 
     def pbEffectGeneral(user)
+		super
+	    user.pbRaiseMultipleStatSteps(DEFENDING_STATS_1, user, move: self)
         transformType(user, :SHADOW)
     end
 end

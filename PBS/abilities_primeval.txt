@@ -14,10 +14,10 @@ Flags = Uncopyable
 Name = Primeval Regenerator
 Description = Heals for 1/4th of its HP at the end of every turn.
 #-------------------------------
-[PRIMEVALSLOWSTART]
-Name = Primeval Slow Start
-Description = Attack and Speed are halved.
-#-------------------------------
 [PRIMEVALSHADOWSCALES]
 Name = Primeval Shadow Scales
 Description = Reduces move damage taken by 50% when HP is full, powers up Shadow-type moves by 20%.
+#-------------------------------
+[PRIMEVALSLOWSTART]
+Name = Primeval Slow Start
+Description = Attack and Speed are halved.

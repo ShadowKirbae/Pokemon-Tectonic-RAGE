@@ -7523,9 +7523,9 @@ Power = 120
 Accuracy = 60
 TotalPP = 30
 Target = NearOther
-FunctionCode = UserLosesHalfOfCurrentHP
+FunctionCode = RecoilHalfOfDamageDealt
 Flags = CanProtect,Uninvocable
-Description = A shadowy aura ram attack that also rebounds on the user. The user is damaged for 50% of their current HP.
+Description = A shadowy aura ram attack that also rebounds on the user. The user also takes 50% recoil.
 #-------------------------------
 [SHADOWFIRE]
 Name = Shadow Fire

@@ -337,3 +337,12 @@ BattleHandlers::DamageCalcTargetAbility.add(:PALACEGUARD,
       end
   }
 )
+
+BattleHandlers::DamageCalcTargetAbility.add(:PRIMEVALSHADOWSCALES,
+  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+    if target.hp == target.totalhp
+      mults[:final_damage_multiplier] /= 2
+      target.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)

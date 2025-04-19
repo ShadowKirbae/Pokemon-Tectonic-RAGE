@@ -424,6 +424,7 @@ Height = 3.3
 #-------------------------------
 [KELDEO,1]
 FormName = Resolute
+Abilities = HEARTOFJUSTICE
 Pokedex = The power that lay hidden in its body now covers its horn, turning it into a sword that can slice through anything.
 #-------------------------------
 [MELOETTA,1]
@@ -976,7 +977,6 @@ Abilities = SYNCHRONIZE
 #-------------------------------
 [GALLADE,1]
 FormName = Finale
-MegaStone = GALLADITE
 BaseStats = 88,125,100,110,75,160
 Abilities = INNERFOCUS
 #-------------------------------
@@ -1013,3 +1013,34 @@ FormName = White-Striped
 Kind = Mellow
 Pokedex = It differs from other Basculin in several respects, including demeanor. It is much gentler than other color variants.
 Evolutions = BASCULEGION,Level,42
+#-------------------------------
+[AGGRON,2]
+FormName = Shadow
+Moves = 1,SHADOWBLITZ,1,SHADOWEND
+#-------------------------------
+[AURORUS,1]
+FormName = Shadow
+Moves = 1,SHADOWCHILL
+#-------------------------------
+[CHANDELURE,1]
+FormName = Shadow
+Moves = 1,SHADOWFIRE,1,SHADOWPANIC
+#-------------------------------
+[GRENINJA,1]
+FormName = Shadow
+Moves = 1,SHADOWSTORM
+#-------------------------------
+[LUGIA,1]
+FormName = Shadow
+Type1 = SHADOW
+Type2 = FLYING
+Moves = 1,SHADOWBLAST,1,SHADOWMIST,1,SHADOWPANIC,1,SHADOWDOWN
+#-------------------------------
+[MANERGETIC,1]
+FormName = Shadow
+Moves = 1,SHADOWBOLT
+#-------------------------------
+[UNFEZANT,1]
+FormName = Shadow
+Moves = 1,SHADOWBREAK
+#-------------------------------

@@ -30,3 +30,12 @@ BattleHandlers::DamageCalcUserAllyAbility.add(:TOXICATTITUDE,
         end
     }
 )
+
+BattleHandlers::DamageCalcUserAllyAbility.add(:PRIMEVALSHADOWSCALES,
+    proc { |ability, user, _target, _move, mults, _baseDmg, type, aiCheck|
+        if type == :SHADOW
+            mults[:base_damage_multiplier] *= 1.2
+            user.aiLearnsAbility(ability) unless aiCheck
+        end
+    }
+)

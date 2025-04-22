@@ -9,11 +9,29 @@ Battle-Avatar-Ditto (Ana's Lament): Janichroma
 Battle-Talon-Florin (Axiom Waltz): Honnojis
 Battle-Elena (Reborn Elite Four): GlitchxCity
 Battle-Lin (Reborn Champion Theme): GlitchxCity
+Battle-Clearan (Mysterious Figures): GlitchxCity
 Battle-Penny: FalKKonE
 Battle-Heartache: FalKKonE
 Battle-Candy (Mondaymania): aytanner
+Battle-Wallace: Mixeli
+Battle-Red: Mixeli
+
 Battle-Shadow-Lugia: Pokemon XD: Gale of Darkness
 Battle-Master-Greevil: Pokemon XD: Gale of Darkness
+Battle-SIM: Pokemon XD: Gale of Darkness
+Battle-MirrorB: Pokemon XD: Gale of Darkness
+Battle-Eusine (Huge Pillar): Kirby Air Ride
+Battle-Mush (Prince Mush): Paper Mario The Thousand Year Door (Remake)
+Battle-Attack-a Whacka (Attack-a of the Whacka): Paper Mario The Thousand Year Door (Remake)
+Battle-TateLiza: Pokemon Black2/White2 PWT Hoenn Gym Leader
+Battle-GuzmaPlumeria: Pokemon Sun/Moon
+Battle-Lance: Pokemon HG/SS
+Battle-Ho-Oh: Pokemon HG/SS
+Battle-LegendaryBirds: Pokemon X/Y
+Battle-Dakim: Wild Arms 5 Knight Blazer
+Battle-Trace: Final Fantasy 7 Lunatic Moon
+
 
 Battle-Zaveid: Tales of Berseria
-Battle-Satan: Shin Megami Tensei V-Vengeance 
+Battle-Satan: Shin Megami Tensei V-Vengeance
+Battle-DemiFiend: Shin Megami Tensei V

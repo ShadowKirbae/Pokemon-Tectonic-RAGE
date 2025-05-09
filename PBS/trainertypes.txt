@@ -1047,6 +1047,7 @@ Name = Nightmare Queen
 Gender = Female
 BaseMoney = 32
 IntroBGM = ACETRAINER
+BattleBGM = Battle nightmare queen
 #-------------------------------
 [NIGHTMARE_TRAINER]
 Name = Nightmare of

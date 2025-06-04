@@ -228,6 +228,10 @@ class PokeBattle_Move_DoubleDamageTargetStatused < PokeBattle_Move
     end
 end
 
+class PokeBattle_Move_EmpoweredCruelty < PokeBattle_Move_DoubleDamageTargetStatused
+    include EmpoweredMove
+end
+
 #===============================================================================
 # Move deals double damage but heals the status condition every active Pokémon
 # if the target has a status condition (Impurity Blaze)
@@ -534,7 +538,7 @@ class PokeBattle_Move_PowerBoostTargetMoved25Percent < PokeBattle_Move
 end
 
 #===============================================================================
-# Always critical hit vs Opponents with raised stats (Humble)
+# Always critical hit vs Opponents with raised stats (Humble, Piercing doubt)
 #===============================================================================
 class PokeBattle_Move_CritsAgainstRaisedStats < PokeBattle_Move
     def pbCriticalOverride(_user, target)

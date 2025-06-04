@@ -377,10 +377,14 @@ animationName, show_message) do
         # Magic Coat/Magic Bounce/Magic Shield
         if move.canMagicCoat? && !target.semiInvulnerable? && target.opposes?(user)
             if aiCheck
-                if target.canChooseMagicCoat?
+                if target.canChooseMagicCoat? || target.effectActive?(:EmpoweredMagicCoat)
                     return false              
                 end
             else
+                if target.effectActive?(:EmpoweredMagicCoat)
+                    target.damageState.magicCoat = true
+                    return false
+                end
                 if target.effectActive?(:MagicCoat)
                     target.damageState.magicCoat = true
                     target.disableEffect(:MagicCoat)
@@ -415,7 +419,8 @@ animationName, show_message) do
             return false
         elsif targetTypeModImmune?(user, target, move, typeMod, show_message, aiCheck)
             if !aiCheck && target.effectActive?(:Illusion)
-                target.aiLearnsAbility(:ILLUSION)
+                target.aiLearnsAbility(:ILLUSION) if target.hasActiveAbility?(:ILLUSION)
+                target.aiLearnsAbility(:INCOGNITO) if target.hasActiveAbility?(:INCOGNITO)
             end
             return false
         end

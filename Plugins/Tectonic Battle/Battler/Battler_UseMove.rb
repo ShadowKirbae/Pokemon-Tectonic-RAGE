@@ -283,6 +283,7 @@ class PokeBattle_Battler
         # Record move as having been used
         aiSeesMove(move) if pbOwnedByPlayer? && !boss? # Enemy trainers now know of this move's existence
         aiLearnsAbility(:ILLUSION) if hasActiveAbility?(:ILLUSION) && effectActive?(:Illusion)
+        aiLearnsAbility(:INCOGNITO) if hasActiveAbility?(:INCOGNITO) && effectActive?(:Illusion)
         increaseMoveUsageCount(move.id)
 
         trackMoveUsage(move: move,specialUsage: specialUsage, target: choice[3])
@@ -432,6 +433,9 @@ class PokeBattle_Battler
                     if b.effectActive?(:MagicCoat)
                         magicCoater = b.index
                         b.disableEffect(:MagicCoat)
+                        break
+                    elsif b.effectActive?(:EmpoweredMagicCoat)
+                        magicCoater = b.index
                         break
                     elsif b.hasActiveAbility?(:MAGICBOUNCE) && !@battle.moldBreaker
                         magicBouncer = b.index

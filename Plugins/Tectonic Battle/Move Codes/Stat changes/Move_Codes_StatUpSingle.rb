@@ -27,7 +27,7 @@ class PokeBattle_Move_RaiseUserAttack2 < PokeBattle_StatUpMove
 end
 
 # Empowered Meteor Mash
-class PokeBattle_Move_EmpoweredMetalClaw < PokeBattle_Move_RaiseUserAttack2
+class PokeBattle_Move_EmpoweredMeteorMash < PokeBattle_Move_RaiseUserAttack2
     include EmpoweredMove
 end
 
@@ -322,7 +322,7 @@ end
 #===============================================================================
 # Increases the user's Sp. Def by 2 steps.
 #===============================================================================
-class PokeBattle_Move_RaiseSpDef2 < PokeBattle_StatUpMove
+class PokeBattle_Move_RaiseUserSpDef2 < PokeBattle_StatUpMove
     def initialize(battle, move)
         super
         @statUp = [:SPECIAL_DEFENSE, 2]

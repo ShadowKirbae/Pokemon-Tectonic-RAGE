@@ -72,6 +72,7 @@ Description = Takes 40% less damage from attacks by Pokémon who have a status c
 [ARCANEFINALE]
 Name = Arcane Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Synchronize.
+Flags = Immutable
 #-------------------------------
 [ARCCONDUCTOR]
 Name = Arc Conductor
@@ -893,6 +894,7 @@ Description = Wild Pokémon are more likely to appear in pairs and to be species
 [HEROICFINALE]
 Name = Heroic Finale
 Description = Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
+Flags = Immutable
 #-------------------------------
 [HIGHRISE]
 Name = High-rise
@@ -1214,7 +1216,7 @@ Description = If an attack lowers its HP to half or less, waterlogs the attacker
 #-------------------------------
 [MONKEYMISCHIEF]
 Name = Monkey Mischief
-Description = When hit by another Pokémon, destroys one of the their items.
+Description = When hit by another Pokémon, destroys one of their items.
 #-------------------------------
 [MOONBASKING]
 Name = Moon Basking
@@ -1320,7 +1322,7 @@ Description = Boosts the Accuracy of its allies and itself by 50%.
 #-------------------------------
 [ODDITY]
 Name = Oddity
-Description = Upon entry, creates an Odd Room for four turns, swapping offensive and Defense and Sp. Def.
+Description = Upon entry, creates an Odd Room for four turns, swapping offensive and defensive stats.
 #-------------------------------
 [OFFENSIVE]
 Name = Offensive

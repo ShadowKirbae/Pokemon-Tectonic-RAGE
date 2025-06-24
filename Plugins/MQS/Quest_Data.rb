@@ -423,16 +423,8 @@ module QuestModule
     :QuestDescription => _INTL("An odd girl in the tournament lobby has an offer. A Pokémon you've bonded with fully, for the individual she possesses... Can you make that trade?"),
   }
 
-  QUEST_LEGEND_VOLCANION1 = {
-    :Name => _INTL("WIP: A Clean Library"),
-    :QuestGiver => _INTL("???"),
-    :Stage1 => _INTL("Return post-tournament."),
-    :Location1 => _INTL("Prizca East, Capitol Building"),
-    :QuestDescription => _INTL("WIP: Finally a library in this damned region, maybe there is some interesting information you can learn. Return here after you've beaten the tournament."),
-  }
-
   QUEST_LEGEND_VOLCANION2 = {
-    :Name => _INTL("WIP: Volcanion"),
+    :Name => _INTL("A Clean Library"),
     :QuestGiver => _INTL("Nora"),
     :Stage1 => _INTL("Go to Luxtech to find information."),
     :Stage2 => _INTL("Return to Nora with the USB."),
@@ -440,7 +432,7 @@ module QuestModule
     :Location1 => _INTL("Luxtech Campus, Cold Storage"),
     :Location2 => _INTL("Prizca East, Capitol Building"),
     :Location3 => _INTL("Svait"),
-    :QuestDescription => _INTL("[Placeholder]"),
+    :QuestDescription => _INTL("Finally a library in this damned region, maybe there is some interesting information you can learn."),
   }
 
   QUEST_LEGEND_TRI_ISLAND = {
@@ -549,6 +541,30 @@ module QuestModule
     :Location1 => _INTL("Makya"),
     :Location2 => _INTL("Kilna Ascent"),
     :QuestDescription => _INTL("A trio of imposing beasts, hidden in the outer reaches of Makya. Why not add controlling the weather to your arsenal?"),
+  }
+
+  QUEST_LEGEND_GENIES = {
+    :Name => _INTL("Excessive Force"),
+    :QuestGiver => _INTL("Jovan"),
+    :Stage1 => _INTL("Explore the cave."),
+    :Stage2 => _INTL("Defend the legends."),
+    :Location1 => _INTL("Oasis System"),
+    :Location2 => _INTL("Sandstone Estuary"),
+    :QuestDescription => _INTL("The suspicious but friendly scientist is asking for help, you've eavesdropped a bit (un)intentionally, but the whole story still alludes you. What is so important about a dumb cave in the desert?"),
+  }
+
+  QUEST_JOVAN = {
+    :Name => _INTL("A Troubled Scientist"),
+    :QuestGiver => _INTL("Jovan"),
+    :Stage1 => _INTL("Find him again."),
+    :Stage2 => _INTL("Find him again."),
+    :Stage3 => _INTL("Find him again."),
+    :Stage4 => _INTL("Find him again."),
+    :Location1 => _INTL("Bluepoint Beach"),
+    :Location2 => _INTL("Shipping Lane"),
+    :Location3 => _INTL("Luxtech Campus"),
+    :Location4 => _INTL("Prizca West"),
+    :QuestDescription => _INTL("This scientist keeps crossing your way. He keeps giving you interesting stuff, may as well continue finding him."),
   }
 
   # Former Champions

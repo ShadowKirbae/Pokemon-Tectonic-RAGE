@@ -960,7 +960,7 @@ Kind = Mellow
 Pokedex = It differs from other Basculin in several respects, including demeanor. It is much gentler than other color variants.
 Evolutions = BASCULEGION,Level,42
 #-------------------------------
-[AGGRON,2]
+[AGGRON,1]
 FormName = Shadow
 Moves = 1,SHADOWBLITZ,1,SHADOWEND
 #-------------------------------
@@ -979,7 +979,7 @@ Moves = 1,SHADOWSTORM
 [LUGIA,1]
 FormName = Shadow
 Abilities = MULTISCALE
-Moves = 1,NATURALPROTECTION,1,SHADOWBLAST,1,SHADOWDOWN,1,SHADOWMIST,1,SHADOWPANIC,1,WATERGUN,4,GUST,8,RAINSTORM,12,MINDWAVES,16,WHELM,20,BOREALWIND,24,GREYMIST,28,EERIESPELL,32,RECOVER,36,SURF,40,COLDFRONT,44,HONESIGHT,48,FUTURESIGHT,52,HYDROPUMP,56,AEROBLAST,60,CALMMIND,64,PSYCHICOVERLOAD
+Moves = 1,SHADOWBLAST,1,SHADOWDOWN,1,SHADOWMIST,1,SHADOWPANIC
 #-------------------------------
 [MANERGETIC,1]
 FormName = Shadow

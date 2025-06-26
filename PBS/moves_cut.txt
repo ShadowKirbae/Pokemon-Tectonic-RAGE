@@ -787,6 +787,18 @@ Description = The user powerfully wrings the foe. The more HP the foe has, the g
 #-------------------------------
 #		FIGHTING MOVES
 #-------------------------------
+[BAR]
+Name = Bar
+Type = FIGHTING
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DisableTargetUsingOffTypeMove4
+Flags = CanProtect,CanMagicCoat
+Description = The target is barred by rules which prevent it from using off-type moves for three more turns.
+Animation = IMPRISON
+#-------------------------------
 [CIRCLETHROW]
 Name = Circle Throw
 Type = FIGHTING

@@ -4717,7 +4717,7 @@ Evolutions = DRAGONAIR,Level,28
 Name = Dragonair
 Type1 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 76,80,82,55,80,87
+BaseStats = 75,80,80,55,80,90
 # Total = 460
 BaseEXP = 147
 Rareness = 50
@@ -6963,7 +6963,7 @@ Name = Pupitar
 Type1 = ROCK
 Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 80,84,90,51,65,80
+BaseStats = 80,85,90,50,65,80
 # Total = 450
 BaseEXP = 144
 Rareness = 50
@@ -11427,7 +11427,7 @@ Name = Gible
 Type1 = DRAGON
 Type2 = GROUND
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 58,75,60,52,40,45
+BaseStats = 60,75,60,50,40,45
 # Total = 330
 BaseEXP = 60
 Rareness = 95
@@ -11449,7 +11449,7 @@ Name = Gabite
 Type1 = DRAGON
 Type2 = GROUND
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 78,90,75,82,60,65
+BaseStats = 80,90,75,80,60,65
 # Total = 450
 BaseEXP = 144
 Rareness = 50
@@ -11468,7 +11468,7 @@ Name = Garchomp
 Type1 = DRAGON
 Type2 = GROUND
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 108,125,105,87,75,75
+BaseStats = 110,125,105,85,75,75
 # Total = 575
 BaseEXP = 270
 Rareness = 35
@@ -15396,7 +15396,7 @@ Name = Deino
 Type1 = DARK
 Type2 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 67,35,60,45,63,60
+BaseStats = 65,35,60,45,65,60
 # Total = 330
 BaseEXP = 60
 Rareness = 95
@@ -15418,7 +15418,7 @@ Name = Zweilous
 Type1 = DARK
 Type2 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 87,55,75,65,93,75
+BaseStats = 85,65,75,65,85,75
 # Total = 450
 BaseEXP = 147
 Rareness = 50
@@ -15439,7 +15439,7 @@ Name = Hydreigon
 Type1 = DARK
 Type2 = DRAGON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 107,90,90,78,120,90
+BaseStats = 105,90,90,80,120,90
 # Total = 575
 BaseEXP = 270
 Rareness = 35
@@ -16998,7 +16998,7 @@ Name = Sliggoo
 Type1 = DRAGON
 Type2 = POISON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 74,60,98,62,83,73
+BaseStats = 70,60,100,60,85,75
 # Total = 450
 BaseEXP = 158
 Rareness = 95
@@ -17020,7 +17020,7 @@ Name = Goodra
 Type1 = DRAGON
 Type2 = POISON
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 99,70,125,86,110,85
+BaseStats = 95,75,125,85,110,85
 # Total = 575
 BaseEXP = 270
 Rareness = 35
@@ -17040,7 +17040,7 @@ Name = H. Sliggoo
 Type1 = DRAGON
 Type2 = STEEL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 74,83,98,52,60,83
+BaseStats = 70,85,100,50,60,85
 # Total = 450
 BaseEXP = 158
 Rareness = 95
@@ -17061,7 +17061,7 @@ Name = H. Goodra
 Type1 = DRAGON
 Type2 = STEEL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 94,110,105,71,70,125
+BaseStats = 90,110,105,70,75,125
 # Total = 575
 BaseEXP = 270
 Rareness = 35
@@ -20891,7 +20891,7 @@ Name = Drakloak
 Type1 = DRAGON
 Type2 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 68,90,60,102,70,60
+BaseStats = 70,90,60,100,70,60
 # Total = 450
 BaseEXP = 144
 Rareness = 50

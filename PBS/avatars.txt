@@ -231,7 +231,7 @@ Moves2 = HEADBUTT,PLAYROUGH
 #-------------------------------
 [TANGROWTH]
 Ability = LATEBLOOMER
-Moves1 = ROOTWRACK,KNOCKOFF,PRIMEVALPUZZLEROOM
+Moves1 = CREEPINGSTRIKE,KNOCKOFF,PRIMEVALPUZZLEROOM
 Moves2 = DAZZLINGGLEAM,MAGICALLEAF,ANCIENTPOWER
 #-------------------------------
 [HIPPOWDON]
@@ -391,7 +391,7 @@ HPMult = 5.0
 #-------------------------------
 [PANSAGE]
 Ability = FRIENDGUARD
-Moves1 = SEEDBOMB
+Moves1 = FLASHSEED
 Turns = 1
 HPMult = 2.0
 #-------------------------------
@@ -659,6 +659,10 @@ Ability = LEVITATE
 Moves1 = METALSOUND,SLAG,CONFUSERAY,PRIMEVALROCKPOLISH
 Moves2 = PACIFY,METEORBEAM,PSYCHOBOOST
 HPMult = 8.0
+#-------------------------------
+[PIKACHU]
+Ability = BREAKTHROUGH
+Moves1 = TACKLE
 #-------------------------------
 [MIMIKYU]
 Ability = PRIMEVALDISGUISE

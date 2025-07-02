@@ -109,9 +109,8 @@ DarkCave,20,15
     25,WHISMUR,9,11
 LandSparse,20,15
     25,DITTO,9,11
-    25,FERROSEED,9,11
     25,PARAS,9,11
-    25,SHELLDER,9,11
+    50,SHELLDER,9,11
 #-------------------------------
 [029] # Full Blast Records F2
 Special,40
@@ -528,10 +527,11 @@ FloweryGrass2,20,60
 #-------------------------------
 [183] # Circuit Cave
 DarkCave,20,60
-    25,ELEKID,44,46
-    25,MINUN,44,46
-    25,MORPEKO,44,46
-    25,PLUSLE,44,46
+    20,ELEKID,44,46
+    20,MINUN,44,46
+    20,MORPEKO,44,46
+    20,PLUSLE,44,46
+    20,FERROSEED,44,46
 #-------------------------------
 [185] # Eleig Stretch
 Land,20,40

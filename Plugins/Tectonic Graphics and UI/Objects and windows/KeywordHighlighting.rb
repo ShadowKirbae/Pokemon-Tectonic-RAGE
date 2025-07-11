@@ -99,6 +99,11 @@ def battleKeywordsImportant
         "defensive",
         "coins",
         "money",
+        "spread",
+        "multi-hit",
+        "multi-hits",
+        "rampage",
+        "rampages",
     ]
 end
 

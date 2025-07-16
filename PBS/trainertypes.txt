@@ -325,11 +325,6 @@ Name = Champion
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[CHASMGANG]
-Name = Driller
-Gender = Unknown
-BaseMoney = 16
-#-------------------------------
 [CHEF]
 Name = Chef
 Gender = Male
@@ -1216,6 +1211,12 @@ Gender = Female
 BaseMoney = 60
 IntroBGM = ELITETRAINER
 #-------------------------------
+[POKEMONRANGER_F2_GANG]
+Name = Driller
+Gender = Female
+BaseMoney = 60
+IntroBGM = ELITETRAINER
+#-------------------------------
 [POKEMONRANGER_F3]
 Name = Pokémon Ranger
 Gender = Female
@@ -1224,6 +1225,12 @@ IntroBGM = ACETRAINER
 #-------------------------------
 [POKEMONRANGER_F4]
 Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 60
+IntroBGM = ACETRAINER
+#-------------------------------
+[POKEMONRANGER_F_GANG]
+Name = Driller
 Gender = Female
 BaseMoney = 60
 IntroBGM = ACETRAINER
@@ -1240,6 +1247,12 @@ Gender = Male
 BaseMoney = 60
 IntroBGM = ELITETRAINER
 #-------------------------------
+[POKEMONRANGER_M2_GANG]
+Name = Driller
+Gender = Male
+BaseMoney = 60
+IntroBGM = ACETRAINER
+#-------------------------------
 [POKEMONRANGER_M3]
 Name = Pokémon Ranger
 Gender = Male
@@ -1248,6 +1261,12 @@ IntroBGM = ELITETRAINER
 #-------------------------------
 [POKEMONRANGER_M4]
 Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 60
+IntroBGM = ELITETRAINER
+#-------------------------------
+[POKEMONRANGER_M4_GANG]
+Name = Driller
 Gender = Male
 BaseMoney = 60
 IntroBGM = ELITETRAINER

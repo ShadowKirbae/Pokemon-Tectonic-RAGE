@@ -2,7 +2,8 @@ Sprites:
 Lusamine Trainer Sprite: Pokemon Wack (edited by me)
 Lusamine Overworld Sprite: Zender1752 (edited by me)
 Lacey Trainer Sprite: @Brumirage
-Iono Trainer+Overworld Sprite: mid117
+Iono Overworld Sprite: mid117 (edited by me)
+Iono Trainer Sprite: Brumirage
 
 Audio:
 Battle-Avatar-Ditto (Ana's Lament): Janichroma
